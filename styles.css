@@ -57,6 +57,7 @@ hr{
    padding: 2rem 3rem;
    flex-wrap: wrap;
    gap: 20px;
+   
  
 }
 .sec1 > .container > h1{
@@ -92,7 +93,7 @@ hr{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 30px;
     
 }
 .sec2 > .container{
@@ -139,6 +140,7 @@ hr{
     justify-content: space-around;
     gap: 20px;
     flex-wrap: wrap;
+    
 }
 .sec3 >  h2{
     font-family: var(--font-family);
@@ -147,6 +149,7 @@ hr{
 }
 .sec3 > .container > .card{
     flex: 1;
+    flex-basis: 400px;
     background-color: hsl(210, 20%, 98%);
     padding: 3rem ;
     border-radius: 7px;
