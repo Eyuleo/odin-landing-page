@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a,li{
+    list-style-type: none;
+    text-decoration: none;
+    color: var(--gray-bg);
+}
+
+:root{
+    --font-family:'Roboto', sans-serif;
+    --hero-bg:hsl(215, 28%, 17%);
+    --btn-callta-bg:hsl(217, 91%, 60%);
+    --gray-bg:hsl(220, 13%, 91%);
+
+}
+hr{
+    border-bottom: 0;
+    width: 50%;
+    margin: 10px auto;
+}
+
+.nav{
+    background-color: var(--hero-bg);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1.5rem;
+    align-items: center;
+    
+}
+
+.nav-bar{
+    display: flex;
+    color: var(--gray-bg);
+    gap: 3rem;
+    font-family: var(--font-family);
+    font-size: 1.125rem;
+    
+}
+.nav h1{
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 1.7rem;
+    
+}
+
+.sec1{
+    background-color: var(--hero-bg);
+    min-height: 50dvh;
+    display: flex;
+    justify-content: space-around;
+   padding: 2rem 3rem;
+   flex-wrap: wrap;
+   gap: 20px;
+ 
+}
+.sec1 > .container > h1{
+    color: #fff;
+    font-family: var(--font-family);
+    font-size: 2.5rem;
+    
+}
+.sec1 > .container > p{
+    color: #fff;
+    font-family: var(--font-family);
+    margin-top: 1rem;
+}
+.sec1 > img{
+   
+    max-width: 100%;
+}
+.sec1 > .container > button{
+    border: 0;
+    background-color: var(--btn-callta-bg);
+    font-family: var(--font-family);
+    font-size: 1.25rem;
+    padding: .3em 1em;
+    border-radius: 5px;
+    margin-top: 24px;
+}
+.container > button > a{
+    color: #fff;
+}
+
+/* second section */
+.content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+.sec2 > .container{
+    min-height: 50dvh;
+    padding: 2rem 3rem;
+}
+.sec2 > .container h1{
+    font-family: var(--font-family);
+    font-size: 2rem;
+    color: var(--hero-bg);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.content >.card{
+    background-color: hsl(210, 20%, 98%);
+    padding: 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .2s ease-in-out ;
+
+}
+.card > img{
+    width: 200px;
+    height: auto;
+}
+.content p{
+    font-family: var(--font-family);
+    color: #000;
+    padding: .2rem;
+    
+}
+.content > .card:hover{
+    transform: translateY(-15px);
+}
+
+
+/* third section */
+.sec3{
+    min-height: 50vh;
+}
+.sec3 > .container{
+    padding: 3rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.sec3 >  h2{
+    font-family: var(--font-family);
+    text-align: center;
+    
+}
+.sec3 > .container > .card{
+    flex: 1;
+    background-color: hsl(210, 20%, 98%);
+    padding: 3rem ;
+    border-radius: 7px;
+}
+.sec3 > .container > .card >p{
+    font-family: var(--font-family);
+    line-height: 1.5;
+}
+.sec3 > .container > .card > h2{
+    font-family: var(--font-family);
+}
+/* fourth section  */
+
+.sec4 {
+    padding: 2rem 5rem;
+}
+.call-to-action{
+    background-color: var(--btn-callta-bg);
+    padding: 2rem 4rem;
+    border-radius: 10px;
+   text-align: center;
+    
+    
+}
+.call-to-action > h2{
+    font-family: var(--font-family);
+    color: #fff;
+   
+}
+.call-to-action > p{
+    font-family: var(--font-family);
+    color: #fff;
+    margin: 10px 0;
+   
+}
+.call-to-action > button{
+    border: 1px solid #fff;
+    background-color: transparent;
+    font-family: var(--font-family);
+    font-size: 1.25rem;
+    padding: .3em 1em;
+    border-radius: 5px;
+    margin-top: 24px;
+}
+.call-to-action > button > a{
+    color: #fff;
+}
+
+/* footer */
+footer{
+    background-color: var(--hero-bg);
+    padding: 1.2rem;
+}
+footer > p{
+    font-family: var(--font-family);
+    color: var(--gray-bg);
+    text-align: center;
+}
